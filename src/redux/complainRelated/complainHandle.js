@@ -6,7 +6,8 @@ import {
     getError
 } from './complainSlice';
 
-const REACT_APP_BASE_URL = "http://localhost:5000";
+// const REACT_APP_BASE_URL = "http://localhost:5000";
+const REACT_APP_BASE_URL = "https://school-manag-back-end.vercel.app/";
 
 export const getAllComplains = (id, address) => async (dispatch) => {
     dispatch(getRequest());

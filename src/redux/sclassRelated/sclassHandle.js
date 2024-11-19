@@ -11,7 +11,9 @@ import {
     getSubDetailsSuccess,
     getSubDetailsRequest
 } from './sclassSlice';
-const REACT_APP_BASE_URL = "http://localhost:5000";
+
+// const REACT_APP_BASE_URL = "http://localhost:5000";
+const REACT_APP_BASE_URL = "https://school-manag-back-end.vercel.app/";
 
 
 export const getAllSclasses = (id, address) => async (dispatch) => {
